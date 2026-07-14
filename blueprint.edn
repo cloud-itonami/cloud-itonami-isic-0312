@@ -1,0 +1,11 @@
+{:itonami.blueprint/id "cloud-itonami-isic-0312"
+ :itonami.blueprint/name "Freshwater Fishing Fleet Operations Coordination Actor"
+ :itonami.blueprint/isic-rev5 "0312"
+ :itonami.blueprint/domain :agriculture/freshwater-fishing-operations
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:fishing-fleet-coordination :catch-record-transparency :fleet-safety-escalation]
+ :itonami.blueprint/governor :freshwater-fishing-operations-governor
+ :itonami.blueprint/robotics false
+ :itonami.blueprint/required-technologies [:identity :audit-ledger :dmn :forms]
+ :itonami.blueprint/optional-technologies [:telemetry :quota-tracking]
+ :itonami.blueprint/status :public-oss}

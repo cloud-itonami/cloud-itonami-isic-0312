@@ -13,13 +13,13 @@
 ```bash
 git clone https://github.com/cloud-itonami/cloud-itonami-isic-0312.git
 cd cloud-itonami-isic-0312
-clojure -M:test
+kbb -M:test
 ```
 
 ### Quick Demo
 
 ```bash
-clojure -M:dev:run
+kbb -M:dev:run
 ```
 
 This prints the demo vessel registration and a summary of the active

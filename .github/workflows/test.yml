@@ -16,5 +16,5 @@ jobs:
       - uses: DeLaGuardo/setup-clojure@master
         with:
           cli: latest
-      - run: clj -M:test
-      - run: clj -M:lint
+      - run: kbb -M:test
+      - run: kbb -M:lint

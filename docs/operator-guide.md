@@ -23,7 +23,7 @@ clojure -M:dev:run
 ```
 
 This prints the demo vessel registration and a summary of the active
-governance rules (see `src/freshwater_fishing/sim.cljc`). It does not yet
+governance rules (see `src/freshwater_fishing/sim.cljk`). It does not yet
 drive a full request through the compiled `freshwater-fishing.operation`
 graph end-to-end — that wiring is a natural next extension, following the
 same shape as `cloud-itonami-isic-0321`'s `aquaculture.sim`.

@@ -136,5 +136,5 @@ override path through this actor.
   low confidence)
 - Store contract tests: vessel lookup, quota accrual, audit trail,
   maintenance scheduling, supply ordering
-- Run via `clojure -M:test`; see the repository's CI workflow
+- Run via `kbb -M:test`; see the repository's CI workflow
   (`.github/workflows/test.yml`) for the exact invocation

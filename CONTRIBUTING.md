@@ -6,8 +6,8 @@ tests, documentation, and open business blueprint.
 ## Development
 
 ```bash
-clojure -M:dev:test
-clojure -M:lint
+kbb -M:dev:test
+kbb -M:lint
 ```
 
 Keep changes small and include tests for governor, store, or operation
@@ -34,5 +34,5 @@ PRs should describe:
 
 - what behavior changed
 - which governor invariant is affected
-- how it was tested (paste the `clojure -M:test` output)
+- how it was tested (paste the `kbb -M:test` output)
 - whether operator or compliance docs need updates
